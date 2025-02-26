@@ -1,11 +1,26 @@
 import Header from ".././components/Layout/Header";
 import Footer from ".././components/Layout/Footer";
 import SideBar from ".././components/Layout/SideBar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 
 export default function Layout() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+      if (window.innerWidth < 1280) {
+        setIsOpen(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Chama a função para fechar caso a tela já esteja pequena
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, [setIsOpen]); // Adicionei `setIsOpen` como dependência
 
   return (
     <>

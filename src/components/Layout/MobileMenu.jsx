@@ -1,5 +1,5 @@
-import NavItem from "./UI/NavItem";
-import ButtonLink from "./UI/ButtonLink";
+import NavItem from "../UI/NavItem";
+import ButtonLink from "../UI/ButtonLink";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
@@ -16,7 +16,7 @@ import {
   iconSobre,
   iconSuporte,
   Logo,
-} from "../share/icons";
+} from "../../share/icons";
 
 const HeaderMobileMenu = styled.nav`
   padding: 12px 0 24px 0;
@@ -52,22 +52,28 @@ export default function MobileMenu({ setMobileMenuOpen }) {
         </button>
       </HeaderMobileMenu>
       <NavMobileMenu>
-        <NavItem icon={iconPalpites} text={"Palpites"} page={"/palpites"}/>
-        <NavItem icon={iconRoleta} text={"Roleta"} page={"/roleta"}/>
-        <NavItem icon={iconFantasy} text={"Fantasy"} page={"/fantasy"}/>
-        <NavItem icon={iconAoVivo} text={"Ao Vivo"} page={"/aovivo"}/>
-        <NavItem icon={iconCircuitos} text={"Circuito"} page={"/circuito"}/>
+        <NavItem icon={iconPalpites} text={"Palpites"} page={"/palpites"} />
+        <NavItem icon={iconRoleta} text={"Roleta"} page={"/roleta"} />
+        <NavItem icon={iconFantasy} text={"Fantasy"} page={"/fantasy"} />
+        <NavItem icon={iconAoVivo} text={"Ao Vivo"} page={"/aovivo"} />
+        <NavItem icon={iconCircuitos} text={"Circuito"} page={"/circuito"} />
       </NavMobileMenu>
       <NavMobileMenu>
-        <NavItem icon={iconSobre} text={"Sobre Nós"} page={"/about"}/>
-        <NavItem icon={iconAfiliados} text={"Afiliados"} page={"/afiliados"}/>
-        <NavItem icon={iconPremios} text={"Prêmios"} page={"/premios"}/>
-        <NavItem icon={iconSuporte} text={"Suporte"} page={"/suporte"}/>
-        <NavItem icon={iconBlog} text={"Blog"} page={"/blog"}/>
+        <NavItem icon={iconSobre} text={"Sobre Nós"} page={"/about"} />
+        <NavItem icon={iconAfiliados} text={"Afiliados"} page={"/afiliados"} />
+        <NavItem icon={iconPremios} text={"Prêmios"} page={"/premios"} />
+        <NavItem icon={iconSuporte} text={"Suporte"} page={"/suporte"} />
+        <NavItem icon={iconBlog} text={"Blog"} page={"/blog"} />
       </NavMobileMenu>
       <div className="flex flex-col gap-4 mt-6">
-        <ButtonLink page={"/login"} text={"Entrar"} />
-        <ButtonLink page={"/cadastro"} text={"Cadastre-se"} />
+        <ButtonLink page={"/login"}>Entrar</ButtonLink>
+        <ButtonLink
+          page={"/cadastro"}
+          bgColor={"bg-white"}
+          textColor={"text-black"}
+        >
+          Cadastre-se
+        </ButtonLink>
       </div>
     </motion.div>
   );

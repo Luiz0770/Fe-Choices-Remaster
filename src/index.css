@@ -9,3 +9,7 @@ html {
 button {
   cursor: pointer;
 }
+
+#home {
+  font-family: "Poppins", serif;
+}

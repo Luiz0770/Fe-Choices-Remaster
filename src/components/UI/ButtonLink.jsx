@@ -1,12 +1,20 @@
 import { NavLink } from "react-router-dom";
 
-function ButtonLink({ page, text }) {
+function ButtonLink({
+  page,
+  bgColor = "bg-[#4477BB]",
+  textColor = "text-white",
+  Px = "py-2",
+  Py = "px-3",
+  border = "",
+  children,
+}) {
   return (
     <NavLink
       to={page}
-      className="bg-white text-black font-bold py-2 px-3 rounded hover:bg-transparent border hover:border-white hover:text-white hover:scale-105 hover:duration-200"
+      className={`${bgColor} ${textColor} ${Px} ${Py} ${border} flex gap-3 text-center rounded hover:scale-105 hover:duration-200`}
     >
-      <p className="text-center">{text}</p>
+      {children}
     </NavLink>
   );
 }
