@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import { Logo } from "../../share/icons";
+import { Logo } from "../../shared/icons";
 import MobileMenu from "./MobileMenu";
 import ToggleButton from "../UI/ToggleButton";
 import ButtonLink from "../UI/ButtonLink";

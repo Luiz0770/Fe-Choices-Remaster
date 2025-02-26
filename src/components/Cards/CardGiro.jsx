@@ -2,7 +2,7 @@ import {
   iconRoletaW,
   IlustrationGiro1,
   IlustrationGiro2,
-} from "../../share/icons";
+} from "../../shared/icons";
 import styled from "styled-components";
 import ButtonLink from "../UI/ButtonLink";
 

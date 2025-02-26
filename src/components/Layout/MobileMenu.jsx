@@ -16,7 +16,7 @@ import {
   iconSobre,
   iconSuporte,
   Logo,
-} from "../../share/icons";
+} from "../../shared/icons";
 
 const HeaderMobileMenu = styled.nav`
   padding: 12px 0 24px 0;

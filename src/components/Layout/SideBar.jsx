@@ -13,7 +13,7 @@ import {
   iconSuporte,
   iconPontos,
   arrow,
-} from "../../share/icons";
+} from "../../shared/icons.jsx";
 import styled from "styled-components";
 
 const BtnSideBar = styled.button`

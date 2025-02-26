@@ -1,4 +1,4 @@
-import { IlustrationBandeira } from "../../share/icons";
+import { IlustrationBandeira } from "../../shared/icons";
 import ButtonLink from "../UI/ButtonLink";
 
 export default function CardCircuito() {

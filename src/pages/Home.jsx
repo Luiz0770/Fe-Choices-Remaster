@@ -1,13 +1,13 @@
-import CardHelcome from "../components/CardHelcome";
+import CardHelcome from "../components/Cards/CardHelcome";
 import CardCircuito from "../components/Cards/CardCircuito";
 import CardGiro from "../components/Cards/CardGiro";
 import CardInfo from "../components/Cards/CardInfo";
-import MiniCard from "../components/MiniCard";
+import MiniCard from "../components/Cards/MiniCard";
 import {
   IlustrationGanhePontos,
   IlustrationResgatePremios,
   ImgFuncionamento,
-} from "../share/icons";
+} from "../shared/icons";
 
 export default function Home() {
   return (

@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import { arrowRight, IlustrationBemVindo, LogoGoogle } from "../share/icons";
+import { arrowRight, IlustrationBemVindo, LogoGoogle } from "../../shared/icons";
 import styled from "styled-components";
-import ButtonLink from "./UI/ButtonLink";
+import ButtonLink from "../UI/ButtonLink";
+
 
 const GradientCard = styled.div`
   width: 100%;

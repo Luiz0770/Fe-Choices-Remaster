@@ -1,4 +1,4 @@
-import { ilustrationError } from "../share/icons";
+import { ilustrationError } from "../shared/icons";
 
 export default function PageNotFound() {
   return (

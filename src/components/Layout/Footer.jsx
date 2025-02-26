@@ -8,7 +8,7 @@ import {
   iconTwitter,
   ilustrationFooter,
   Logo,
-} from "../../share/icons";
+} from "../../shared/icons";
 
 const GridFooter = styled.div`
   padding-top: 12px; /* pt-3 */

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ButtonLink from "./UI/ButtonLink";
+import ButtonLink from "../UI/ButtonLink";
 
 const GradientCard = styled.div`
   width: 100%;
