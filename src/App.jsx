@@ -5,6 +5,7 @@ import PageNotFound from "./pages/PageNotFound";
 import Palpites from "./pages/Palpites";
 import Cadastro from "./pages/Authenticator/Cadastro";
 import Login from "./pages/Authenticator/Login";
+import RoletaPage from "./pages/RoletaPage";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home/>} />
             <Route path="/palpites" element={<Palpites/>} />
+            <Route path="/roleta" element={<RoletaPage/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/cadastro" element={<Cadastro/>} />
             <Route path="*" element={<PageNotFound/>} />
