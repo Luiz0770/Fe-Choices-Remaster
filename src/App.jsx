@@ -6,6 +6,7 @@ import Palpites from "./pages/Palpites";
 import Cadastro from "./pages/Authenticator/Cadastro";
 import Login from "./pages/Authenticator/Login";
 import RoletaPage from "./pages/RoletaPage";
+import Circuito from "./pages/Circuito";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <Route index element={<Home/>} />
             <Route path="/palpites" element={<Palpites/>} />
             <Route path="/roleta" element={<RoletaPage/>} />
+            <Route path="/circuito" element={<Circuito/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/cadastro" element={<Cadastro/>} />
             <Route path="*" element={<PageNotFound/>} />

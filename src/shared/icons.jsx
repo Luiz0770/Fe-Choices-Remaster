@@ -11,6 +11,13 @@ import iconSobre from "../assets/icons/sidebar/icon-sobre.svg";
 import iconSuporte from "../assets/icons/sidebar/icon-suporte.svg";
 import iconBlog from "../assets/icons/sidebar/icon-blog.svg";
 
+// Icons Circuito
+import iconLocalizacao from "../assets/icons/iconLocalizacao.svg";
+import iconCurvas from "../assets/icons/iconCurvas.svg";
+import iconSentido from "../assets/icons/iconSentido.svg";
+import iconTamanho from "../assets/icons/iconTamanho.svg";
+
+
 // Icons Redes Sociais
 import iconInstagram from '../assets/icons/instagram.svg'
 import iconFacebook from '../assets/icons/facebook.svg'
@@ -63,4 +70,8 @@ export {
   IlustrationBemVindo,
   iconRoletaW,
   Bandeira,
+  iconLocalizacao,
+  iconCurvas,
+  iconSentido,
+  iconTamanho
 };
