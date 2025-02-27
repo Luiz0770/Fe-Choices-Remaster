@@ -1,6 +1,6 @@
 import { SpinWheel } from "react-spin-wheel";
-import "react-spin-wheel/dist/index.css";
-import { Logo } from "../shared/icons";
+import "./Roleta.css";
+import { Logo } from "../../shared/icons";
 import { useEffect, useState } from "react";
 
 export default function Roleta() {

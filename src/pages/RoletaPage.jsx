@@ -1,4 +1,4 @@
-import Roleta from "../components/Roleta";
+import Roleta from "../components/SpinWheel/Roleta.jsx";
 import { iconPontos } from "../shared/icons";
 
 export default function RoletaPage() {
