@@ -3,7 +3,7 @@ import ButtonLink from "../UI/ButtonLink";
 
 export default function CardCircuito() {
   return (
-    <div className="my-10 flex flex-col gap-8 items-center text-center text-white">
+    <article className="my-10 flex flex-col gap-8 items-center text-center text-white">
       <h2 className="text-2xl font-semibold uppercase">
         Venha conhecer o próximo circuito que será percorrido pela Fórmula E!
       </h2>
@@ -22,6 +22,6 @@ export default function CardCircuito() {
           VER CIRCUITO
         </ButtonLink>
       </div>
-    </div>
+    </article>
   );
 }

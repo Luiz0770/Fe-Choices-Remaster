@@ -6,7 +6,7 @@ import {
 import styled from "styled-components";
 import ButtonLink from "../UI/ButtonLink";
 
-const GradientCard = styled.div`
+const GradientCard = styled.article`
   width: 100%;
   max-height: 400px;
   display: flex;

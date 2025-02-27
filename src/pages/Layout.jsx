@@ -15,12 +15,10 @@ export default function Layout() {
         setIsOpen(false);
       }
     };
-
     window.addEventListener("resize", handleResize);
-    handleResize(); // Chama a função para fechar caso a tela já esteja pequena
-
+    handleResize(); 
     return () => window.removeEventListener("resize", handleResize);
-  }, [setIsOpen]); // Adicionei `setIsOpen` como dependência
+  }, [setIsOpen]); 
 
   return (
     <>

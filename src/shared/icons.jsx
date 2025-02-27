@@ -22,6 +22,7 @@ import iconPontos from "../assets/icons/icon-pontos.svg";
 import arrow from "../assets/icons/seta-baixo.svg"; 
 import arrowRight from "../assets/icons/seta-direita.svg"; 
 import Logo from "../assets/logo.svg";
+import Bandeira from "../assets/icons/bandeira.svg";
 
 import ilustrationError from '../assets/ilustrations/404.svg'
 import IlustrationGanhePontos from '../assets/ilustrations/ganhe-pontos.svg'
@@ -61,4 +62,5 @@ export {
   LogoGoogle,
   IlustrationBemVindo,
   iconRoletaW,
+  Bandeira,
 };

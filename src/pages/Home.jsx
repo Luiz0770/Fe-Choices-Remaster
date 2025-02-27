@@ -11,7 +11,10 @@ import {
 
 export default function Home() {
   return (
-    <section id="home" className="container mx-auto my-10 flex flex-col gap-10 px-10">
+    <main
+      id="home"
+      className="container mx-auto my-10 flex flex-col gap-10 px-10"
+    >
       <CardHelcome />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <MiniCard
@@ -23,14 +26,19 @@ export default function Home() {
         <MiniCard
           image={IlustrationResgatePremios}
           title={"Resgate prêmios!"}
-          text={"De seus palpites, ganhe pontos e troque seus pontos por prêmios"}
+          text={
+            "De seus palpites, ganhe pontos e troque seus pontos por prêmios"
+          }
           textButton={"VEJA OS PRÊMIOS"}
         />
       </div>
       <CardCircuito />
       <CardGiro />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <CardInfo title={"Como funcionam os Palpites?"} image={ImgFuncionamento}>
+        <CardInfo
+          title={"Como funcionam os Palpites?"}
+          image={ImgFuncionamento}
+        >
           Com a FE CHOICES, o usuário tem a oportunidade de testar os seus
           conhecimentos sobre a Fórmula E, palpitando, de forma totalmente
           gratuita, apenas usando os nossos pontos.
@@ -41,6 +49,6 @@ export default function Home() {
           bandeira de sua equipe, de equipes reais da FE.
         </CardInfo>
       </div>
-    </section>
+    </main>
   );
 }
