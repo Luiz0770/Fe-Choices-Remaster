@@ -1,0 +1,31 @@
+{
+    "pistas": [
+      {
+        "id": "pista-1",
+        "nome": "São Paulo",
+        "localizacao": "São Paulo, Brasil",
+        "tamanho": "3.190 km",
+        "curva": "12",
+        "sentido": "Sentido Horário",
+        "imagem" : "/tracks/saopaulo-track.svg"
+      },
+      {
+        "id": "pista-2",
+        "nome": "Mexico City",
+        "localizacao": "Cidade do México, México",
+        "tamanho": "2.630 km",
+        "curva": "19",
+        "sentido": "Sentido Horário",
+        "imagem" : "/tracks/mexico-track.svg"
+      },
+      {
+        "id": "pista-3",
+        "nome": "Jeddah",
+        "localizacao": "Jeddah, Arábia Saudita",
+        "tamanho": "3.001 km",
+        "curva": "19",
+        "sentido": "Sentido Anti-Horário",
+        "imagem" : "/tracks/jeddah-track.svg"
+      }
+    ]
+  }
