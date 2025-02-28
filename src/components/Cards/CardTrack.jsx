@@ -10,9 +10,9 @@ export default function CardTrack({pista}) {
     <article className="bg-[#30455A] p-5 rounded shadow-2xl ">
       <div className="flex flex-col leading-3">
         <span className="text-[#596E84] text-md">Circuito de</span>
-        <span className="text-2xl font-semibold">{pista.nome}</span>
+        <span className="text-2xl font-semibold uppercase">{pista.nome}</span>
       </div>
-      <img className="mx-auto min-h-[350px]" src={pista.imagem} alt={`Circuito de ${pista.nome}`} />
+      <img className={`mx-auto ${pista.sizeImagem} min-h-[450px]`} src={pista.imagem} alt={`Circuito de ${pista.nome}`} />
 
       <div className="flex flex-col md:flex-row gap-12 justify-center md:items-center border-t-4 border-[#22374C] p-4 mt-10">
         {/* Localizacao Circuito */}

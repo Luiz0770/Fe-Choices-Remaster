@@ -7,7 +7,8 @@
         "tamanho": "3.190 km",
         "curva": "12",
         "sentido": "Sentido Horário",
-        "imagem" : "/tracks/saopaulo-track.svg"
+        "imagem" : "/tracks/saopaulo-track.svg",
+        "sizeImagem": "lg:w-6/7"
       },
       {
         "id": "pista-2",
@@ -16,7 +17,8 @@
         "tamanho": "2.630 km",
         "curva": "19",
         "sentido": "Sentido Horário",
-        "imagem" : "/tracks/mexico-track.svg"
+        "imagem" : "/tracks/mexico-track.svg",
+        "sizeImagem": "lg:w-4/7"
       },
       {
         "id": "pista-3",
@@ -25,7 +27,8 @@
         "tamanho": "3.001 km",
         "curva": "19",
         "sentido": "Sentido Anti-Horário",
-        "imagem" : "/tracks/jeddah-track.svg"
+        "imagem" : "/tracks/jeddah-track.svg",
+        "sizeImagem": "lg:w-6/7"
       }
     ]
   }

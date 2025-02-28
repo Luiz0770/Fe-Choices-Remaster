@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const GradientCard = styled.div`
-  width: 50%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +28,7 @@ const GradientCard = styled.div`
   );
 
   @media (min-width: 768px) {
+    width: 40%;
     flex-direction: row;
     padding: 3rem 2rem 1.5rem;
   }

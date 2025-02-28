@@ -1,5 +1,5 @@
 import CardPalpites from "../components/Cards/CardPalpites";
-import palpites from "../data/drivers.json";
+import palpites from "../data/odds.json";
 import { iconPontos } from "../shared/icons";
 
 export default function Palpites() {

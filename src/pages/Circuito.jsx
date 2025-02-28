@@ -1,6 +1,6 @@
 // Importações necessárias do Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules"; // Importação dos módulos necessários
+import { Navigation, Pagination } from "swiper/modules"; // Importação dos módulos necessários
 import "swiper/css"; // Importa o estilo base do Swiper
 import "swiper/css/navigation"; // Estilos para a navegação (setas)
 import "swiper/css/pagination"; // Estilos para a paginação
@@ -20,16 +20,16 @@ export default function Circuito() {
 
       <section>
         <Swiper
-          slidesPerView={1} // Mostra um slide por vez
-          spaceBetween={50} // Espaçamento entre os slides
-          loop={true} // Habilita o loop infinito
-          pagination={{ clickable: true }} // Adiciona paginação
-          navigation={true} // Adiciona botões de navegação (setas)
-          modules={[Navigation, Pagination, Autoplay]} // Habilita os módulos necessários
-        >
+          slidesPerView={1} 
+          spaceBetween={60} 
+          loop={true} 
+          pagination={{ clickable: true }} 
+          navigation={true} 
+          modules={[Navigation, Pagination]}
+          >
           {tracks.pistas.map((pista) => (
             <SwiperSlide key={pista.id}>
-              <CardTrack pista={pista} />
+              <CardTrack pista={pista}/>
             </SwiperSlide>
           ))}
         </Swiper>

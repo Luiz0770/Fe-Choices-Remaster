@@ -1,56 +1,224 @@
-[
-  {
-    "data": "29 de jun, 18:03",
-    "nomeCorrida": "HANKOOK PORTLAND E-PRIX - TOP 3",
-    "pilotos": [
-      {
-        "nome": "Da Costa, Antônio Félix",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Hughes, Jake",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Nato, Norman",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Cassidy, Nick",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Evans, Mitch",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Vandoorne, Stoffel",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Vergne, Jean-Éric",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Gunther, Maximilian",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Frijns, Robin",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Rowland, Oliver",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Dennis, Jake",
-        "odd": "1.2"
-      },
-      {
-        "nome": "Mortara, Edoardo",
-        "odd": "1.2"
+{
+  "pilotos": [
+    {
+      "id": "DEN01",
+      "nome": "Jake Dennis",
+      "abreviacao": "DEN",
+      "numero": 1,
+      "posicaoUltimaTemporada": 1,
+      "equipe": {
+        "nome": "Andretti Formula E",
+        "corHexadecimal": "#0000FF"
       }
-    ]
-  }
-]
+    },
+    {
+      "id": "CAS37",
+      "nome": "Nick Cassidy",
+      "abreviacao": "CAS",
+      "numero": 37,
+      "posicaoUltimaTemporada": 2,
+      "equipe": {
+        "nome": "Jaguar TCS Racing",
+        "corHexadecimal": "#008000"
+      }
+    },
+    {
+      "id": "EVA09",
+      "nome": "Mitch Evans",
+      "abreviacao": "EVA",
+      "numero": 9,
+      "posicaoUltimaTemporada": 3,
+      "equipe": {
+        "nome": "Jaguar TCS Racing",
+        "corHexadecimal": "#008000"
+      }
+    },
+    {
+      "id": "WEH94",
+      "nome": "Pascal Wehrlein",
+      "abreviacao": "WEH",
+      "numero": 94,
+      "posicaoUltimaTemporada": 4,
+      "equipe": {
+        "nome": "TAG Heuer Porsche Formula E Team",
+        "corHexadecimal": "#000000"
+      }
+    },
+    {
+      "id": "GUN25",
+      "nome": "Maximilian Günther",
+      "abreviacao": "GUN",
+      "numero": 25,
+      "posicaoUltimaTemporada": 5,
+      "equipe": {
+        "nome": "Maserati MSG Racing",
+        "corHexadecimal": "#0000FF"
+      }
+    },
+    {
+      "id": "VER25",
+      "nome": "Jean-Éric Vergne",
+      "abreviacao": "VER",
+      "numero": 25,
+      "posicaoUltimaTemporada": 6,
+      "equipe": {
+        "nome": "DS Penske",
+        "corHexadecimal": "#FFD700"
+      }
+    },
+    {
+      "id": "VAN02",
+      "nome": "Stoffel Vandoorne",
+      "abreviacao": "VAN",
+      "numero": 2,
+      "posicaoUltimaTemporada": 7,
+      "equipe": {
+        "nome": "DS Penske",
+        "corHexadecimal": "#FFD700"
+      }
+    },
+    {
+      "id": "DAC13",
+      "nome": "António Félix da Costa",
+      "abreviacao": "DAC",
+      "numero": 13,
+      "posicaoUltimaTemporada": 8,
+      "equipe": {
+        "nome": "TAG Heuer Porsche Formula E Team",
+        "corHexadecimal": "#000000"
+      }
+    },
+    {
+      "id": "FEN23",
+      "nome": "Sacha Fenestraz",
+      "abreviacao": "FEN",
+      "numero": 23,
+      "posicaoUltimaTemporada": 9,
+      "equipe": {
+        "nome": "Nissan Formula E Team",
+        "corHexadecimal": "#FFFFFF"
+      }
+    },
+    {
+      "id": "NAT17",
+      "nome": "Norman Nato",
+      "abreviacao": "NAT",
+      "numero": 17,
+      "posicaoUltimaTemporada": 10,
+      "equipe": {
+        "nome": "Nissan Formula E Team",
+        "corHexadecimal": "#FFFFFF"
+      }
+    },
+    {
+      "id": "MOR48",
+      "nome": "Edoardo Mortara",
+      "abreviacao": "MOR",
+      "numero": 48,
+      "posicaoUltimaTemporada": 11,
+      "equipe": {
+        "nome": "Mahindra Racing",
+        "corHexadecimal": "#FF0000"
+      }
+    },
+    {
+      "id": "DEV21",
+      "nome": "Nyck de Vries",
+      "abreviacao": "DEV",
+      "numero": 21,
+      "posicaoUltimaTemporada": 12,
+      "equipe": {
+        "nome": "Mahindra Racing",
+        "corHexadecimal": "#FF0000"
+      }
+    },
+    {
+      "id": "SET04",
+      "nome": "Sérgio Sette Câmara",
+      "abreviacao": "SET",
+      "numero": 4,
+      "posicaoUltimaTemporada": 13,
+      "equipe": {
+        "nome": "ERT Formula E Team",
+        "corHexadecimal": "#FFA500"
+      }
+    },
+    {
+      "id": "TIC33",
+      "nome": "Dan Ticktum",
+      "abreviacao": "TIC",
+      "numero": 33,
+      "posicaoUltimaTemporada": 14,
+      "equipe": {
+        "nome": "ERT Formula E Team",
+        "corHexadecimal": "#FFA500"
+      }
+    },
+    {
+      "id": "FRI04",
+      "nome": "Robin Frijns",
+      "abreviacao": "FRI",
+      "numero": 4,
+      "posicaoUltimaTemporada": 15,
+      "equipe": {
+        "nome": "ABT CUPRA Formula E Team",
+        "corHexadecimal": "#808080"
+      }
+    },
+    {
+      "id": "DIG11",
+      "nome": "Lucas di Grassi",
+      "abreviacao": "DIG",
+      "numero": 11,
+      "posicaoUltimaTemporada": 16,
+      "equipe": {
+        "nome": "ABT CUPRA Formula E Team",
+        "corHexadecimal": "#808080"
+      }
+    },
+    {
+      "id": "DAR07",
+      "nome": "Jehan Daruvala",
+      "abreviacao": "DAR",
+      "numero": 7,
+      "posicaoUltimaTemporada": 17,
+      "equipe": {
+        "nome": "Maserati MSG Racing",
+        "corHexadecimal": "#0000FF"
+      }
+    },
+    {
+      "id": "BAR51",
+      "nome": "Taylor Barnard",
+      "abreviacao": "BAR",
+      "numero": 51,
+      "posicaoUltimaTemporada": 18,
+      "equipe": {
+        "nome": "NEOM McLaren Formula E Team",
+        "corHexadecimal": "#FFA500"
+      }
+    },
+    {
+      "id": "BIR08",
+      "nome": "Sam Bird",
+      "abreviacao": "BIR",
+      "numero": 8,
+      "posicaoUltimaTemporada": 19,
+      "equipe": {
+        "nome": "NEOM McLaren Formula E Team",
+        "corHexadecimal": "#FFA500"
+      }
+    },
+    {
+      "id": "ROW22",
+      "nome": "Oliver Rowland",
+      "abreviacao": "ROW",
+      "numero": 22,
+      "posicaoUltimaTemporada": 20,
+      "equipe": {
+        "nome": "Nissan Formula E Team",
+        "corHexadecimal": "#FFFFFF"
+      }
+    }
+  ]
+}
